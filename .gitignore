@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Frontend build and local preview artifacts
+node_modules/
+dist/
+*.tsbuildinfo
+homepage-preview.jpg
+.env
+.env.*
+!.env.example
